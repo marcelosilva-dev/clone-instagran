@@ -98,7 +98,12 @@ export const Footer = styled.div`
 
     input {
       width: 100%;
-      border: none;
+      border: 0;
+      background: transparent;
+
+      &:focus {
+        border: 0;
+      }
 
       &::placeholder {
         padding-left: 1rem;

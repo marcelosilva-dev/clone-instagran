@@ -28,5 +28,5 @@ export const ContainerMain = styled.div`
   background: #fafafa;
 
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 `;

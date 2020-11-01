@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const ContainerMiddle1 = styled.div`
   max-width: 100%;
-  height: 100%;
+  max-height: 80px;
 
   display: flex;
 
@@ -23,7 +23,6 @@ export const ContainerMiddle1 = styled.div`
   align-items: center;
   background: #ffffff;
   border: 1px solid #dbdbdb;
-  padding: 1rem;
 
   div {
     display: flex;
@@ -32,12 +31,12 @@ export const ContainerMiddle1 = styled.div`
   }
 
   img {
-    width: 60px;
+    width: 80px;
     background-color: #000;
     border: 3px solid #e1306c;
     border-radius: 50%;
     margin-left: 0.5rem;
-    padding: 0.2rem;
+    padding: 0.8rem;
     background-color: #ffffff;
   }
 `;

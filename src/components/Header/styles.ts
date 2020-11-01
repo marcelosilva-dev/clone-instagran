@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { shade } from "polished";
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 50px;
   background: #ffffff;
   position: fixed;
@@ -20,7 +20,7 @@ export const Container = styled.div`
   border-bottom: 1px solid #dbdbdb;
 
   nav {
-    width: 50%;
+    width: 51%;
     display: flex;
 
     justify-content: space-between;
@@ -53,7 +53,7 @@ export const Container = styled.div`
       display: flex;
 
       svg {
-        padding: 0 0.7rem 0 0.7rem;
+        padding: 0 0.4rem 0 0.4rem;
       }
       img {
         width: 25px;
