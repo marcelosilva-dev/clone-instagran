@@ -16,25 +16,33 @@ export const Header = styled.div`
 
   > div {
     display: flex;
+    width: 100%;
     padding: 1rem 0 1rem 0;
-
-    > img {
-      width: 40px;
-      background-color: #000;
-      border-radius: 50%;
-      margin-right: 0.5rem;
-      margin-left: 1rem;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
     div {
       display: flex;
       height: 40px;
       align-items: center;
 
+      > img {
+        width: 40px;
+        background-color: #000;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+      }
+
       > h5 {
         padding: 0;
         margin: 0;
       }
+    }
+
+    > svg {
+      margin-right: 15px;
     }
   }
 `;

@@ -3,6 +3,7 @@ import React from "react";
 import { FiSend } from "react-icons/fi";
 import { AiFillHome, AiOutlineHeart } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
+import { BsThreeDots } from "react-icons/bs";
 
 import { Header, Footer } from "./styles";
 
@@ -22,10 +23,14 @@ const MainPublications: React.FC<MainPubProps> = (props: MainPubProps) => {
     <div>
       <Header>
         <div>
-          <img src={props.avatar} />
           <div>
-            <h5>{props.username}</h5>
+            <img src={props.avatar} />
+            <div>
+              <h5>{props.username}</h5>
+            </div>
           </div>
+
+          <BsThreeDots size={30} />
         </div>
       </Header>
       <img
