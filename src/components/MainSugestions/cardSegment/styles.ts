@@ -17,6 +17,7 @@ export const Container = styled.div`
     padding: 0.3rem 1rem 0.3rem 3rem;
 
     align-items: center;
+    justify-content: space-between;
 
     div.identification {
       padding-left: 0.7rem;
@@ -43,8 +44,7 @@ export const Container = styled.div`
     div.change {
       width: 100%;
       flex: 1;
-
-      padding-left: 4rem;
+      text-align: right;
       h5 {
         color: #0095f6;
       }

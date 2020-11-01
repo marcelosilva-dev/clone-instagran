@@ -34,9 +34,9 @@ const MainPublications: React.FC<MainPubProps> = (props: MainPubProps) => {
       />
       <Footer>
         <div className="icons">
-          <AiOutlineHeart size={25} />
-          <FaRegComment size={25} />
-          <FiSend size={25} />
+          <AiOutlineHeart size={35} />
+          <FaRegComment size={35} />
+          <FiSend size={35} />
         </div>
         <div className="like">
           <img src={props.avatar} />

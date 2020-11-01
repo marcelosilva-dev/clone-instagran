@@ -6,7 +6,7 @@ const Section = ({ children }) => {
       <section
         style={{
           margin: "0 0 20px 0",
-          maxWidth: "100vw",
+          maxWidth: "100%",
           marginBottom: "3rem",
         }}
       >

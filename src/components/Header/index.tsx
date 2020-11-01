@@ -27,10 +27,10 @@ const Header: React.FC<HeaderProps> = () => {
         </div>
 
         <div className="icons">
-          <AiFillHome size={25} />
-          <FiSend size={25} />
-          <ImCompass2 size={25} />
-          <AiOutlineHeart size={25} />
+          <AiFillHome size={30} />
+          <FiSend size={30} />
+          <ImCompass2 size={30} />
+          <AiOutlineHeart size={30} />
           <img src={avatar} />
         </div>
       </nav>

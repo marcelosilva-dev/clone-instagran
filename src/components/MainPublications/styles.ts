@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
 
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   background: #fafafa;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const ContainerMiddle1 = styled.div`
   max-width: 100%;
-  max-height: 80px;
+  height: 100%;
 
   display: flex;
 
@@ -28,16 +28,6 @@ export const ContainerMiddle1 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  img {
-    width: 80px;
-    background-color: #000;
-    border: 3px solid #e1306c;
-    border-radius: 50%;
-    margin-left: 0.5rem;
-    padding: 0.8rem;
-    background-color: #ffffff;
   }
 `;
 export const ContainerMiddle2 = styled.div`

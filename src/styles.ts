@@ -23,10 +23,10 @@ export const Container = styled.div`
 
 export const ContainerMain = styled.div`
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   background: #fafafa;
 
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
 `;
