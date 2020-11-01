@@ -66,6 +66,13 @@ const MainPublications: React.FC<MainPubProps> = () => {
         username="packers"
         name="Green Bay Packers"
       />
+      <div className="footer">
+        <label>
+          Sobre Ajuda Imprensa API Carreiras Privacidade Termos Localizações
+          Contas mais relevantesHashtags Idioma Português (Brasil) © 2020
+          INSTAGRAM DO FACEBOOK
+        </label>
+      </div>
     </Container>
   );
 };

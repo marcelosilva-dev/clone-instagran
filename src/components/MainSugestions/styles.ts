@@ -29,4 +29,10 @@ export const Container = styled.div`
       padding-left: 7rem;
     }
   }
+
+  div.footer {
+    margin-top: 1rem;
+    padding-left: 4rem;
+    color: #8e8e8e;
+  }
 `;
